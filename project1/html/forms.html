@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Forms</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1>HTML Forms</h1>
+<!-- <form class="" action="index.html" method="post"> -->
+<!-- class represents ... -->
+<!--action represents what is 'triggered' when the form is finished-->
+<!--method represents http method...-->
+      <form>
+        <label for="firstname">First name</label>
+        <input type="text" name="firstname" value="" id="firstname" placeholder="first name" required>
+        <br>
+        <label for="lastname">Last name</label>
+        <input type="text" name="lastname" value="" id="lastname" placeholder="last name" required>
+        <br>
+        <label for="email">email address</label>
+        <input type="email" name="email" value="" id="email" placeholder="email address" required>
+        <br><br>
+        <label for="userpassword">password</label>
+        <br>
+        <input type="password" name="password" value="" id="userpassword" placeholder="password here" required>
+        <br><br>
+
+
+      <!-- the value keyword is accessible for server side processing -->
+      <form >
+        <label for="female"> Female</label>
+        <input type="radio" name="first_radio" value="Female" id="female"> <br>
+        <label for="male"> Male</label>
+        <input type="radio" name="first_radio" value="Male" id="male"> <br>
+        <label for="silence"> N/A</label>
+        <input type="radio" name="first_radio" value="noIdentity" id="silence" ><br>
+
+        <br><br>
+
+        <label for="dropQuestion">Choose your Security Question</label>
+        <select name="question" id="dropQuestion">
+          <option value="street">What street did you live on?</option>
+          <option value="movie">What is your favorite movie</option>
+          <option value="maiden">What is your mothers maiden name</option>
+          <option value="color">What is your favorite color</option>
+        </select>
+        <br>
+        <label for="answer">Your answer to the Security Question</label>
+        <br>
+        <input type="text" name="answer" id="answer" placeholder="add your answer here"> <br>
+        <label for="myinfo"></label> <br>
+        <textarea name="bioinfo" rows="3" cols="80" id="myinfo" placeholder="Share something about yourself..."></textarea>
+        <br>
+        <input type="submit" name="" value="submit">
+      </form>
+      <br>
+      <br>
+
+  </body>
+  <a href="index.html">Home page</a>
+</html>
