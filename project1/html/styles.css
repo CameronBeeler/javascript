@@ -1,0 +1,53 @@
+/* COMMENTS
+
+highlight a block and use mac:  cmd+/   to comment a block of code
+color picker!
+https://www.w3schools.com/colors/colors_picker.asp
+*/
+  ul{
+    color:#137311;
+    border-style: solid;
+    border-width: 4px;
+    border-color: navy;
+  }
+  li{
+    list-style-type: disc;
+    text-shadow: 1px 1px #5d23a2;
+  }
+  ol{
+    color:#c3790b;
+/*    border-style: solid;
+    border-width: 4px;
+    border-color: navy; */
+    border: solid  4px #09cf29 ;
+  }
+  h1{
+    background-color: lightcyan;
+    text-align: center;
+  }
+  h2{
+    background-color: #c0e628;
+    text-align: center;
+  }
+  h3{
+    background-color: lightgoldenrodyellow;
+    color:darkslategray;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Courier New';
+  }
+  h4{
+    color:crimson;
+    background-color:lightgoldenrodyellow;
+    font-size: 20px;
+    text-align: center;
+  }
+  p{
+    color:darkslateblue;
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 3px;
+    column-count: 2;
+    column-gap: 40px;
+  }
