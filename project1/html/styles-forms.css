@@ -1,0 +1,18 @@
+a[href="index.html"] {
+    background-color: #fee6b7;
+    color: #0b2ee4;
+}
+
+#firstname {
+    color: #006ff2;
+}
+
+#lastname {
+    background-color: #0ddad4;
+    color: #fe0127;
+}
+
+#userpassword {
+    background-color: #000000;
+    color: #ffffff;
+}
