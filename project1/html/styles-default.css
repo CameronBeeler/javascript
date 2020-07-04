@@ -4,50 +4,99 @@ highlight a block and use mac:  cmd+/   to comment a block of code
 color picker!
 https://www.w3schools.com/colors/colors_picker.asp
 */
-  ul{
-    color:#137311;
+a[href*="index"] {
+    background-color: #fee6b7;
+    color: #0b2ee4;
+}
+
+a[href$="asp"] {
+    background: #d1fcff;
+    color: #8700ff;
+    font-weight: bolder;
+    padding: 2px;
+    border: #9600ff 2px dotted;
+}
+
+.red {
+    color: #b12d1b;
+}
+
+div {
+    color: #f9ad05;
+    border: #342cda 2px solid;
+}
+
+div p {
+    color: #169a3f;
+}
+
+p.cruiser {
+    color: #9111ed;
+}
+
+p.cruiser.secondclass {
+    border: solid 2px #9111ed;
+}
+
+p {
+    border: inherit;
+}
+
+.review {
+    color: #020004;
+}
+
+ul {
+    color: #137311;
     border-style: solid;
     border-width: 4px;
     border-color: navy;
-  }
-  li{
+}
+
+li {
     list-style-type: disc;
     text-shadow: 1px 1px #5d23a2;
-  }
-  ol{
-    color:#c3790b;
-/*    border-style: solid;
+}
+
+ol {
+    color: #c3790b;
+    /*    border-style: solid;
     border-width: 4px;
     border-color: navy; */
-    border: solid  4px #09cf29 ;
-  }
-  h1{
+    border: solid 4px #09cf29;
+}
+
+h1 {
     background-color: lightcyan;
     text-align: center;
-  }
-  h2{
+}
+
+h2 {
     background-color: #c0e628;
     text-align: center;
-  }
-  h3{
+}
+
+h3 {
     background-color: lightgoldenrodyellow;
-    color:darkslategray;
+    color: darkslategray;
     font-size: 20px;
     text-align: center;
     text-decoration: underline;
     font-family: 'Courier New';
-  }
-  h4{
-    color:crimson;
-    background-color:lightgoldenrodyellow;
+}
+
+h4 {
+    color: crimson;
+    background-color: lightgoldenrodyellow;
     font-size: 20px;
     text-align: center;
-  }
-  p{
+}
+
+/* p{
     color:darkslateblue;
     text-align: left;
     line-height: 25px;
     letter-spacing: 3px;
     column-count: 2;
     column-gap: 40px;
-  }
+  } */
