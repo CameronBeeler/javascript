@@ -61,7 +61,8 @@ console.log(booly, typeof booly, "any string with any value, even '0'");
 // console.log("count is " + (count));
 
 //        VAR test
-// var myVar = 10;
+// var myVar = 10; --> var has no scope, last executed current reference,
+//                     allows multiple declare
 if(true)
 {
   var myVar = 20;
